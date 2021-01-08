@@ -5,10 +5,12 @@ Requirements
 
 OpenPV Computational Neuroscience Toolbox
 
-We use the 2017 release obtained here [OpenPV 2017 release](https://github.com/PetaVision/OpenPV/releases)
+* We use the 2017 release obtained here [OpenPV 2017 release](https://github.com/PetaVision/OpenPV/releases)
+* We also use MATLAB for interpreting our experimental results
 
-We also use MATLAB for interpreting our experimental results
-
-Training the Model
+Training the Model Pathways
 =======
+
+Each pathway needs to be pretrained with specific data.  In the paper we have the Face pathway and Object pathway.
+
 
