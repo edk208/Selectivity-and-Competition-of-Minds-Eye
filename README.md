@@ -27,3 +27,8 @@ Using the Pretrained Weights
 =======
 
 If you do not want to retrain the model, you can use the pretrained weights in the pretrained_weights folder.  There are three saved weight files per pathway and there are two pretrained pathways, face and object.
+
+Multipath Deconvolutional Competitive Algorithm (MDCA)
+=======
+
+
