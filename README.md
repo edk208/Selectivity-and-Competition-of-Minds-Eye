@@ -16,5 +16,11 @@ Set the parameters in the input/Pretrain.lua file.  These parameters include the
 
 `lua Pretrain.lua`
 
+These are the 128x128 images used in the paper.  
+
+[50k ImageNet images](https://www.dropbox.com/s/w4yrxkjp6qcfdsf/imagenet_128.zip?dl=0)
+
+[10k CelebA faces](https://www.dropbox.com/s/zqh1kma45wd6rvx/CelebAfaces128_10k.zip?dl=0)
+
 
 
