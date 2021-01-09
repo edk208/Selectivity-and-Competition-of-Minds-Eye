@@ -23,4 +23,7 @@ These are the 128x128 images used in the paper.
 [10k CelebA faces](https://www.dropbox.com/s/zqh1kma45wd6rvx/CelebAfaces128_10k.zip?dl=0)
 
 
+Using the Pretrained Weights
+=======
 
+If you do not want to retrain the model, you can use the pretrained weights in the pretrained_weights folder.  There are three saved weight files per pathway and there are two pretrained pathways, face and object.
