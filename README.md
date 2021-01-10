@@ -37,6 +37,15 @@ Use the FFAImg.lua file to run the MDCA algorithm.  You will need to change the 
 
 The output directory will contain the vector representations, as well as any checkpoints and temporary files generated from the inference process.
 
+To record every step of the inference process so you can see the evolution of the reconstruction over time, use the FFAImgSlowMo.lua file.
+
+`lua FFAImgSlowMo.lua`
+
 Interpreting the Results
 =======
+
+The result analysis scripts are written in Matlab and found in the scripts folder.  To see the reconstructions of the dataset, use the analysisTwoMultiscale.m file.  To write out the reconstruction over time, and to see the activity of the neurons in a graph, use analysisTwoMultiscaleSlowMo.m.  To perform classification between Faces and Objects, use the classifyFace.m file.  Note that the threshold here is a parameter set to 1.4.
+
+If for some reason Matlab throws and error, you can use the modified mlab scripts (replace the OpenPV mlab directory with this one).  It is probably because the scripts were originally written for Octave, and adapted to Matlab here.
+
 
