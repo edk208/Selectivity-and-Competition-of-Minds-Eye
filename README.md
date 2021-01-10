@@ -31,4 +31,12 @@ If you do not want to retrain the model, you can use the pretrained weights in t
 Multipath Deconvolutional Competitive Algorithm (MDCA)
 =======
 
+Use the FFAImg.lua file to run the MDCA algorithm.  You will need to change the parameters in this file, including the path to a text file that contains your test images.  In addition, you will want to change the path to the 6 network weights trained above.  They are labeled as Object or Face weights in the Connections section of the lua file.  For example, look for Face/V1ToInputError_W.pvp and replace that with the trained weights created above.
+
+`lua FFAImg.lua`
+
+The output directory will contain the vector representations, as well as any checkpoints and temporary files generated from the inference process.
+
+Interpreting the Results
+=======
 
